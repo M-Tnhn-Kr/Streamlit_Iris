@@ -9,24 +9,6 @@ import pandas as pd
 import joblib
 
 
-# In[7]:
-
-
-st.__version__
-
-
-# In[9]:
-
-
-pd.__version__
-
-
-# In[10]:
-
-
-joblib.__version__
-
-
 # In[2]:
 
 
