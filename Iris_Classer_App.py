@@ -31,7 +31,7 @@ petal_w = st.number_input("Enter Liter",key=4)
 if st.button("See your species"):
     
     # Unpickle classifier
-    regmodel = joblib.load("iris_classer.pkl")
+    iris_classer = joblib.load("iris_classer.pkl")
     
     # Store inputs into dataframe
     x = pd.DataFrame([[sepal_l, sepal_w, petal_l, petal_w]], columns = ["sepal_length", "sepal_width", "petal_length", "petal_width"])
