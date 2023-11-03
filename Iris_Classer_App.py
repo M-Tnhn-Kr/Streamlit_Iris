@@ -16,16 +16,16 @@ import joblib
 st.header("Iris Classifier App")
 
 # Input bar 1
-sepal_l = st.number_input("Enter Mileage")
+sepal_l = st.number_input("Enter Mileage",key=1)
 
 # Input bar 2
-sepal_w = st.number_input("Enter Liter")
+sepal_w = st.number_input("Enter Liter",key=2)
 
 # Input bar 3
-petal_l = st.number_input("Enter Liter")
+petal_l = st.number_input("Enter Liter",key=3)
 
 # Input bar 4
-petal_w = st.number_input("Enter Liter")
+petal_w = st.number_input("Enter Liter",key=4)
 
 # If button is pressed
 if st.button("See your species"):
