@@ -1,1 +1,0 @@
-Using the "iris classification" model I created, I go live with streamlit on AWS.
